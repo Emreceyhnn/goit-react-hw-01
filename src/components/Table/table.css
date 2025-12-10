@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+thead th {
+  background: #333;
+  color: #fff;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+}
+
+tbody td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+  background: #e6e6e6;
+  color: black;
+}
+
+tbody tr:nth-child(odd) {
+  background: #fff;
+  color: black;
+}
